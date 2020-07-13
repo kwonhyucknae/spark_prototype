@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        tool 'maven'
         sh 'mvn install'
       }
     }
